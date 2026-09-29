@@ -1,0 +1,30 @@
+# Python Bytecode ve Önbellek
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Sanal Ortamlar (Virtual Environments)
+venv/
+.venv/
+env/
+ENV/
+
+# Veri Dosyaları ve Klasörleri (Büyük boyutlu binary dosyalar)
+data/
+*.bin
+
+# Model Ağırlıkları ve Checkpoint Dosyaları (GitHub dosya limiti 100MB'dır)
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# İşletim Sistemi ve IDE Dosyaları
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Jupyter Notebook Önbelleği
+.ipynb_checkpoints/
